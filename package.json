@@ -2,6 +2,7 @@
   "name": "dhyana",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -19,8 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "electron:start": "electron ."
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^31.1.0"
   }
 }
